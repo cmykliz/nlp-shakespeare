@@ -1,4 +1,4 @@
-## README - Shakespeare Sentiment Analysis and Categorisation: an NLP project
+## Shakespeare Sentiment Analysis and Categorisation: an NLP project
 
 Shakespeare's 37 plays are categorised according to their main theme; Comedy, History, Tragedy. In this project I will be analysing each play to discern whether these categories are accurate for each play using sentiment analysis. This is just for fun and to practise my coding skills. I am starting this from a point of having no idea how I am going to do it or what exactly I am trying to achieve with it, but language and literature both interest me so I'm interested to see what will come out of this, beyond just learning some cool stuff (hopefully).
 
