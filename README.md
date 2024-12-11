@@ -5,33 +5,20 @@ Shakespeare's 37 plays are categorised according to their main theme; Comedy, Hi
 I have started by downloading text files of all 37 plays, listed and enumerated below for ease.
 
 #### COMEDIES
-1 - All's Well That Ends Well
-
-2 - As You Like It
-
-3 - Comedy of Errors
-
-4 - Love's Labour's Lost
-
-5 - Measure for Measure
-
-6 - Merchant of Venice
-
-7 - Merry Wives of Windsor
-
-8 - Midsummer Night's Dream
-
-9 - Much Ado about Nothing
-
-10 - Taming of the Shrew
-
-11 - Tempest
-
-12 - Twelfth Night
-
-13 - Two Gentlemen of Verona
-
-14 - Winter's Tale
+1. - All's Well That Ends Well
+2. - As You Like It
+3. - Comedy of Errors
+4. - Love's Labour's Lost
+5. - Measure for Measure
+6. - Merchant of Venice
+7. - Merry Wives of Windsor
+8. - Midsummer Night's Dream
+9. - Much Ado about Nothing
+10. - Taming of the Shrew
+11. - Tempest
+12. - Twelfth Night
+13. - Two Gentlemen of Verona
+14. - Winter's Tale
 
 #### HISTORIES
 15 - Henry IV, Part I
