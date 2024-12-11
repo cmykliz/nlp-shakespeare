@@ -32,11 +32,11 @@ First off I will remove legal notices, introductions, prelims and end matter, le
 > - whole sentences beginning Actus or Scoena or Scaena
 > - whole sentences beginning Exit or Exeunt or Exe
 > - whole sentences beginning FINIS
-
+>
 > Footnotes: 
 > - Delete all lines beginning with a number
 > - Delete all lines beginning with NOTES
-
+>
 > Punctuation:
 > - replace multi-whitespaces and tabs with single whitespace
 > - replace all dashes characters with single whitespace
