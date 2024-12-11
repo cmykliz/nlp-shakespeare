@@ -6,68 +6,20 @@ I have started by downloading text files of all 37 plays, listed and enumerated 
 
 |         COMEDIES                 |               HISTORIES          |             TRAGEDIES            |
 | -------------------------------- | -------------------------------- | -------------------------------- |
-| 1 - All's Well That Ends Well    |
-| 2 - As You Like It               |
-| 3 - Comedy of Errors             |
-| 4 - Love's Labour's Lost         |
-| 5 - Measure for Measure          |
-| 6 - Merchant of Venice           |
-| 7 - Merry Wives of Windsor       |
-| 8 - Midsummer Night's Dream      |
-| 9 - Much Ado about Nothing       |
-| 10 - Taming of the Shrew         |
-| 11 - Tempest                     |
-| 12 - Twelfth Night               |
-| 13 - Two Gentlemen of Verona     |
-| 14 - Winter's Tale               |
-
-#### 
-15 - Henry IV, Part I
-
-16 - Henry IV, Part II
-
-17 - Henry V
-
-18 - Henry VI, Part I
-
-19 - Henry VI, Part II
-
-20 - Henry VI, Part III
-
-21 - Henry VIII
-
-22 - King John
-
-23 - Pericles
-
-24 - Richard II
-
-25 - Richard III
-
-#### 
-26 - Antony and Cleopatra
-
-27 - Coriolanus
-
-28 - Cymbeline
-
-29 - Hamlet
-
-30 - Julius Caesar
-
-31 - King Lear
-
-32 - Macbeth
-
-33 - Othello
-
-34 - Romeo and Juliet
-
-35 - Timon of Athens
-
-36 - Titus Andronicus
-
-37 - Troilus and Cressida
+| 1 - All's Well That Ends Well    | 15 - Henry IV, Part I            | 26 - Antony and Cleopatra
+| 2 - As You Like It               | 16 - Henry IV, Part II           | 27 - Coriolanus
+| 3 - Comedy of Errors             | 17 - Henry V                     | 28 - Cymbeline
+| 4 - Love's Labour's Lost         | 18 - Henry VI, Part I            | 29 - Hamlet
+| 5 - Measure for Measure          | 19 - Henry VI, Part II           | 30 - Julius Caesar
+| 6 - Merchant of Venice           | 20 - Henry VI, Part III          | 31 - King Lear
+| 7 - Merry Wives of Windsor       | 21 - Henry VIII                  | 32 - Macbeth
+| 8 - Midsummer Night's Dream      | 22 - King John                   | 33 - Othello
+| 9 - Much Ado about Nothing       | 23 - Pericles                    | 34 - Romeo and Juliet
+| 10 - Taming of the Shrew         | 24 - Richard II                  | 35 - Timon of Athens
+| 11 - Tempest                     | 25 - Richard III                 | 36 - Titus Andronicus
+| 12 - Twelfth Night               |                                  | 37 - Troilus and Cressida
+| 13 - Two Gentlemen of Verona     |                                  |
+| 14 - Winter's Tale               |                                  |
 
 ### Stage One: Text Pre-Processing
 Before I do anything I will need to pre-process the text so it's ready for analysis.
@@ -91,9 +43,7 @@ Then I will do some basic analysis, again for funnsies:
 - Figure out if there are any Custom Components to add to the NLP pipeline for what I want to do/further analysis I want to perform, etc.
 
 Then I will need to figure out how to do the more advanced analysis and categorisation model to give plays a score of how comedic/tragic/historic they are. 
-
 - train model on several of each type of play to analyse word frequency differences, sentiment differences, etc.
-
 
 ### Dev log
 22/11/24 - Turns out doing a part time degree with a full time job (plus a million hobbies) is a bit time consuming. But I am finally getting around to actually sorting the regex for the preprocessing, meanwhile I have also been learning more about implimenting language models and I have started working on a simplistic ML model for the shakespeare plays. A friend on my compling course suggested using individual word predictions to see if certain words appear more in certain plays and I like the idea because I can gradually make it more complicated by adding more words, like an n-gram model, to see if the sentences as a whole are more likely in given contexts. Though it is unlikely a specific line appears more than once in all of shakespeare (barr, like, omg) but I'm thinking of more stacked predictions. I will figure that out more when it isn't midnight on a Friday after a full day of set theory and regression classifiers. 
