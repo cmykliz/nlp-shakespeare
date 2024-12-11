@@ -25,7 +25,21 @@ I have started by downloading text files of all 37 plays, listed and enumerated 
 Before I do anything I will need to pre-process the text so it's ready for analysis.
 First off I will remove legal notices, introductions, prelims and end matter, leaving just the text of the play. Need also to remove weird punctuation and line numbers. Will also need to delete footnotes. ARGH. Wonder how regex-able that all is.
 
-(To experiment with later - remove stage directions leaving only dialogue and see if that changes sentiment ratings, for now leave them in)
+#### To be removed/replaced:
+> Stage directions:
+> - whole sentences beginning ACT or SCENE or INDUCTION or PROLOGUE or THE
+> - whole sentences beginning Enter or Alarum
+> - whole sentences beginning Actus or Scoena or Scaena
+> - whole sentences beginning Exit or Exeunt or Exe
+> - whole sentences beginning FINIS
+
+> Footnotes: 
+> - Delete all lines beginning with a number
+> - Delete all lines beginning with NOTES
+
+> Punctuation:
+> - replace multi-whitespaces and tabs with single whitespace
+> - replace all dashes characters with single whitespace
 
 Then I will go through the NLP pipeline using SpaCy, listed below (but I will look into NLTK and any others to see if they give different results)
 
