@@ -35,29 +35,50 @@ I have started by downloading text files of all 37 plays, listed and enumerated 
 
 #### HISTORIES
 15 - Henry IV, Part I
+
 16 - Henry IV, Part II
+
 17 - Henry V
+
 18 - Henry VI, Part I
+
 19 - Henry VI, Part II
+
 20 - Henry VI, Part III
+
 21 - Henry VIII
+
 22 - King John
+
 23 - Pericles
+
 24 - Richard II
+
 25 - Richard III
 
 #### TRAGEDIES
 26 - Antony and Cleopatra
+
 27 - Coriolanus
+
 28 - Cymbeline
+
 29 - Hamlet
+
 30 - Julius Caesar
+
 31 - King Lear
+
 32 - Macbeth
+
 33 - Othello
+
 34 - Romeo and Juliet
+
 35 - Timon of Athens
+
 36 - Titus Andronicus
+
 37 - Troilus and Cressida
 
 ### Stage One: Text Pre-Processing
